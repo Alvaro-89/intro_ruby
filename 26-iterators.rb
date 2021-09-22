@@ -17,3 +17,38 @@ fruits = ['Narana','Frutilla','Pera','Manzana']
 fruits.each do |fruit|
     puts fruit
 end
+
+# El iterador each, hace su trabajo y luego devuelve la colección original
+
+surprise = fruits.each do |fruit|
+                puts fruit
+           end
+
+print surprise
+print "\n"
+
+# El iterador 'map' entrega un nuevo arreglo con el resultado de cada iteración
+
+surpriseII = fruits.map do |fruit|
+                fruit.upcase # => Deja en mayúscula el texto
+             end
+
+print surpriseII
+print "\n"
+
+
+# El iterador "upto" parte desde un número
+
+5.upto(15) do |number|
+    puts number
+end
+
+15.downto(9) do |number|
+    puts number
+end
+
+# Otra forma de definir bloques de código
+
+5.upto(15) { |number| puts number} #Cuando el bloque es corto y cabe razonablemente en una línea, se utilizan las llaves.
+
+# Cuando el bloque es largo, se prefiere el uso de "do" y "end".
