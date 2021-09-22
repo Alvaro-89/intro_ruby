@@ -11,7 +11,8 @@ example_array = ['hello', 'Eudutecno', '0048', true, false, nil, 1, 2, 3]
 example_array.at(2) # => '0048' --> Se supone que es más legible // Estilo declarativo: Hace una consulta para obtener información.
 
 #fetch dispara un error cuando no encuentra el índice
-# puts example_array.fetch (15) => Arroja que el índice está fuera de los límites del arreglo, que en este caso van desde el -9 al 9.
+#   puts example_array.fetch (15) # => Arroja que el índice está fuera de los límites del arreglo, que en este caso van desde el -9 al 9.
+#   puts example_array[15] # => Entrega nil
 
 
 #Ejemplo 2: eliminar elementos de un arreglo
@@ -36,7 +37,7 @@ chars_array = ['a', 'b', 're', 'po', 'we', 'hola']
 #print numeric_array.sort # =>crea una copia ordenada
 
 #Ejemplo 5: Sacar elementos de un arreglo con slice
-    #print chars_array.slice(2,7) # => Entrega un nuevo arreglo a partir del índice del primer parámetro y la cantidad indicada en el segundo parámetro.
+    #print chars_array.slice(2,8) # => Entrega un nuevo arreglo a partir del índice del primer parámetro y la cantidad indicada en el segundo parámetro.
     #print "\n"
 
 #Ejemplo 6: Everyday I'm shuffling
@@ -64,10 +65,10 @@ third_array = first_array + second_array
 # Ejemplo 9: Jugando con pop
 # pop elimina los elementos del final. Pero si se le da un número va eliminando de uno en uno el último y el primero (-n,n)
 sample_array = ["a", "b", "c", "d"]
-puts sample_array.pop(3)
+#puts sample_array.pop(3)
 #print sample_array
 
 # Ejemplo 10: Insert
 other_array = ['w', 'x', 'y', 'z']
 other_array.insert(0,'f')
-print other_array
+#print other_array

@@ -11,6 +11,6 @@ some_array.push 'Segundo elemento' # => El ".push" agrega al final del arreglo
 some_array[3] = 'yeii'
 some_array.prepend 'ups'
 
-#Los métodps "prepend" y "append" son alias de los métodos "unshift" y "push" respectivamente
+#Los métodos "prepend" y "append" son alias de los métodos "unshift" (agregar al principio) y "push" (agregar al final) respectivamente.
 
 puts some_array

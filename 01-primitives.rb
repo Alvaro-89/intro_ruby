@@ -1,5 +1,11 @@
 #Los primitivos son los elementos básicos que traen los lenguajes de programación. Veremos que en Ruby no son 100% primitivos y que en realidad son objetos.
 
+=begin
+    Comentario en párrafo
+    Se pueden comentar varias líneas
+    Genial
+=end
+
 #Ejemplos de números
 puts "Ejemplos de números"
 1 + 2
