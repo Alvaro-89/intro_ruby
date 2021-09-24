@@ -13,5 +13,5 @@ end
 puts "el promedio es #{sum_number/numbers_array2.length}"
 =end
 
-numbers_array2.each { |number| sum_number = sum_number + number }
+numbers_array2.each { |number| sum_number = sum_number + number } # Recordar quue las llaves {} remplazan el "do" y el "end"
 puts "el promedio es #{sum_number.to_f/numbers_array2.length}"
