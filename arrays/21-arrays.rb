@@ -20,3 +20,5 @@ end
     array_two = [1,2,3,4,5,6,7,8,9]
     last_index = array_two.length - 1
     puts array_two[last_index]
+
+    print Array.new(4, 2).reject { |elem| elem.even? }
