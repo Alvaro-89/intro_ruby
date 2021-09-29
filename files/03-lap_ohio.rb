@@ -58,3 +58,5 @@ grouped_customers_by_suc = customers.group_by { |customer| customer[:SUCURSAL] }
 grouped_customers_by_suc.each do |suc, customers|
   puts "#{suc}: #{customers.size}"
 end
+
+# ¿Cuántos clientes no tienen asignada la ciudad?
